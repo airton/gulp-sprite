@@ -1,0 +1,11 @@
+{
+	"name": "gulp-sprite",
+	"version": "1.0.0",
+	"description": "Gerando um sprite de imagens automaticamente",
+	"author": "@airtonvancin",
+	"license": "ISC",
+	"devDependencies": {
+	"gulp": "^3.8.8",
+	"gulp.spritesmith": "^1.4.0"
+	}
+}

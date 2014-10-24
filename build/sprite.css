@@ -1,0 +1,32 @@
+    [class^="ico-"], [class*=" ico-"] {
+        background-image: url("sprite.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+        line-height: 20px;
+        margin-top: 1px;
+        vertical-align: text-top;
+    }
+
+
+
+    .ico-css3{
+        width: 32px;
+        height: 32px;
+        background-position: 0px -48px;
+    }
+
+
+    .ico-html5{
+        width: 48px;
+        height: 48px;
+        background-position: 0px 0px;
+    }
+
+
+    .ico-nodejs{
+        width: 48px;
+        height: 48px;
+        background-position: -48px 0px;
+    }
+
+

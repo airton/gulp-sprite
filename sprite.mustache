@@ -1,0 +1,24 @@
+/*  ==========================================================================
+    Sprite scss
+    ========================================================================== */
+
+    [class^="ico-"], [class*=" ico-"] {
+        background-image: url("sprite.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+        line-height: 20px;
+        margin-top: 1px;
+        vertical-align: text-top;
+    }
+
+
+    {{#items}}
+
+    .ico-{{name}}{
+        width: {{px.width}};
+        height: {{px.height}};
+        background-position: {{px.offset_x}} {{px.offset_y}};
+    }
+
+    {{/items}}
+
